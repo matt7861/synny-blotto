@@ -1,5 +1,12 @@
 import React from "react"
+import { Layout } from "../components/Layout/Layout"
 
-export const frontPage = () => {
-  return <div>frontPage</div>
+const frontPage = () => {
+  return (
+    <Layout>
+      <p>Landing</p>
+    </Layout>
+  )
 }
+
+export default frontPage
